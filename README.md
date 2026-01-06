@@ -1,6 +1,6 @@
 # 💜 Elixir Core Bootcamp
 
-Welcome, Intern! This repository is your step-by-step guide to mastering Elixir from scratch. 
+Welcome, Learner! This repository is your step-by-step guide to mastering Elixir from scratch. 
 
 ## 🗺️ How to use this Bootcamp
 This is not a book you just read. It's a **Hands-on Journey**.

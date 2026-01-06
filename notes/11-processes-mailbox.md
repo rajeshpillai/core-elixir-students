@@ -69,7 +69,7 @@ Worker: I received a hello from Rajesh!
 ```
 *(Wait, why didn't we see the pizza message?)*
 
-> **⚠️ TEACHER'S NOTE**: 
+> **⚠️ MENTOR'S NOTE**: 
 > In the code above, the worker process **stops** after handling the *first* message. In Elixir, if you want a worker to keep working, they have to call themselves again (Recursion!). We'll learn how to make "Permanent Workers" in the next lesson.
 
 ## 💡 Why This Matters
