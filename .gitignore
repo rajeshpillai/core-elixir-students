@@ -1,0 +1,19 @@
+# Elixir/Mix Build Artifacts
+**/_build/
+**/deps/
+**/cover/
+**/rel/
+erl_crash.dump
+*.ez
+
+# Elixir Language Server / IDEs
+**/.elixir_ls/
+.elixir_ls/
+
+# Environment Variables
+.env
+.env.local
+
+# Project Specific
+projects/**/_build/
+projects/**/deps/
