@@ -18,7 +18,11 @@ secret_code = 1234
 input = 1234
 
 # This checks if input equals the existing secret_code
-^secret_code = input 
+# This will ensure the value of secretcode is not rebinded.
+# if the input was a different value Eg: '999'. secretcode = input would have rebinded the value of secretcode.
+# The '^' operator esnures this behaviour is not shown.
+# author - U S Abhiram
+^secret_code = input
 IO.puts("Access Granted!")
 
 # 5. Ignoring values with _
